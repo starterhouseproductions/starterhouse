@@ -1,0 +1,106 @@
+body {color:#777; background: #fff;}
+
+a {color:#555;}
+
+p {color: #777;}
+
+h1,h2,h3, h4, h5, h6 {color: #555;}
+
+#loadingContainer 	{background: #f5f5f5;}
+
+#mainPanel 			{background-color: #f5f5f5; box-shadow: 0 0 15px rgba(0,0,0,.08);}
+#mainPanel:after 	{background: #000; background: rgba(0,0,0,.1);}
+	
+#welcome h1 		{color: #fff;}
+#welcome h1 a 		{border-bottom: 3px double #fff; color: #fff;}
+#welcome h1 a:hover {border-bottom: 3px solid #fff;}
+
+#video iframe,
+#video object,
+#video embed {box-shadow: 0 0 15px rgba(0,0,0,.15);}
+
+#videoTab iframe,
+#videoTab object,
+#videoTab embed {box-shadow: 0 0 15px rgba(0,0,0,.15);}
+
+.innerTopPanel > h1 {color: #fff;}
+.innerTopPanel > h2 {color: #aaa;}
+.innerTopPanel a 	{color: #fafafa;}
+
+#nextPrevLinks a {color: #fafafa;}
+
+#tabNav li.activeNav:hover,
+#tabNav li.activeNav 		  {background: #eee; background: rgba(0,0,0,.05);}
+#tabNav li.activeNav a:before {border-color: #eee transparent transparent; border-color: rgba(0,0,0,.05) transparent transparent;}
+
+#sliderContainer {background: #111 !important;}
+
+.homeSlide a {color: #FAFAFA;}
+.homeSlide h2.posttitle a:hover {color: #fafafa;}
+
+.slideDetails p {color: #777;}
+
+.tab a.thumbLink,
+a.thumbLink,
+a.thumbLinkWide {box-shadow: none;border: none;}
+
+.tab a.thumbLink:before,
+a.thumbLink:before,
+a.thumbLinkWide:before {border: 1px solid rgba(255,255,255,.05);}
+
+.slideControls {background-image: url(images/arrows.png); }
+
+#creditRoll p:first-line {color: #aaa;}
+
+.tab a 		 {color:#555; background: #ddd}
+.tab a:hover {color: #fff; background: #888;}
+
+ul.attachmentGallery li a 			{box-shadow: 0 2px 5px rgba(0,0,0,.15);}
+ul.attachmentGallery li a:before 	{border: 1px solid rgba(255,255,255,.05);}
+ul.attachmentGallery li a:hover img {outline: 1px solid #fff;}
+
+.tabControls {background-image: url(images/arrows_dark.png);}
+
+#bottomPanel 		{background-color: #f5f5f5;	box-shadow: 0 0 15px rgba(0,0,0,.08); text-shadow: 0 1px 1px #fff;}
+#bottomPanel:after 	{background: #000; background: rgba(0,0,0,.1);}
+#bottomPanel:before {background: rgba(255,255,255,.8);}
+
+#footer #copyright 			{color: #aaa; }
+#footer #copyright a 		{color: #666;}
+#footer #copyright a:hover 	{color: #000;}
+
+#footer .socialicon {background-image: url(images/social_dark.png);}
+
+#searchform 	{background: #fff; border: 1px solid #ddd; color: #333;}
+#searchform #s 	{color: #333;}
+
+.listing .post h2.posttitle a:hover,
+.listing .page h2.posttitle a:hover {color: #555;}
+
+.metaStuff {color: #aaa}
+
+.entry a 		{color:#555; background: #ddd;}
+.entry a:hover 	{background: #888; color: #fff;}
+.entry img 		{box-shadow: 0 2px 5px rgba(0,0,0,.35);}
+
+#commentsection a 		{background:#ddd; color:#555;}
+#commentsection a:hover {background:#888; color:#fff;}
+
+blockquote {border-left: 5px solid #999;}
+
+a.viewDetails {color:#FAFAFA;}
+.listing a.viewDetails {color:#333; background: #fff;}
+
+#sidebar 			{color: #999;}
+#sidebar p 			{color: #999;}
+#sidebar a 			{color: #555;}
+#sidebar a:hover 	{color: #000;}
+
+form {background: #e8e8e8; color: #555; box-shadow: none;}
+form p {color: #555;}
+input[type="email"],input[type="text"],input[type="password"] {background: #fff; border: none; color: #555;}
+textarea {background: #fff; border: none; color: #555;}
+#commentform input[type="submit"], 
+input[type="submit"] {background: #888; color: #fafafa;}
+#commentform input[type="submit"]:hover, 
+input[type="submit"]:hover {background:#fff; color: #333;}
